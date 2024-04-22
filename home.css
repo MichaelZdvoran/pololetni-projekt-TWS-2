@@ -24,7 +24,12 @@ header {
   }
 
 .ikony{
-
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: center;
+    gap: 65px;
 }
 
 .kontakty{
@@ -37,24 +42,23 @@ header {
     justify-content: center;
     display: flex;
     height: 700px;
-    opacity: 20%;
+    opacity: 50%;
     size: 100px;
 
 }
 .h1{
     size: 100px;
 
+
 }
 
 footer {
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    background-color:
-    color: white;
-    text-align: center;
-    padding: 5px ;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
     position: fixed;
     bottom: 0px;
     width: 100%;
+    text-align: center;
+    padding: 20px ;
 }
 
 .nadpis{
@@ -67,10 +71,6 @@ footer {
     flex-direction: row
 }
 
-body {
-    margin: 0;
-    padding: 0;
-  }
   header {
     width: 100%;
     height: 100px;
@@ -172,7 +172,109 @@ body {
     transform: translateX(-50%) translateY(0px);
   }
   
-  .image :hover{
-    color: rgb(140, 0, 255);
-
+  svg{
+    transition: 1s;
+    text-decoration: ;
   }
+
+  .Card-food{ 
+    display: flex; 
+    justify-content: space-evenly; 
+    align-items: center;   
+    flex-direction: column; 
+    width: 300px; 
+    height: 300px; 
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.Card-food-img{
+    width: 150px;
+    height: 116px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.Card-food-name{
+    min-height: 18px;
+    width: 100%;
+    text-align: center;
+}
+
+.Card-food-price{
+    width: 100%;
+    height: 46px;
+    text-align: center;
+    font-size: 30px;
+    color: #029094;
+    font-weight: bold;
+}
+
+.Card-food-plus{
+    position: absolute;
+    border-radius: 50%;
+    padding: 6px;
+    background-color: #FE4C4C;
+    top: 284px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+svg{
+    width: 18px;
+    height: 18px;
+}
+
+.menu{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.main{
+  display: flex;
+    max-width: 1300px;
+    margin: auto;
+    padding: 5px;
+
+}
+
+.conteiner{
+    width: 100%;
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin-top: 200px;
+}
+
+.informace{
+  text-align: center;
+  margin: -480px;
+  margin-right: -600px;
+}
+
+.gordon{
+  margin: 80px;
+  margin-right: 0px;
+}
+
+.cara{
+  margin: 5px;
+}
+
+.info{
+  text-align: center;
+  margin: -380px;
+  margin-right: -1300px;
+}
+
+.logo-footer{
+  display: flex;
+  justify-content: left;
+}

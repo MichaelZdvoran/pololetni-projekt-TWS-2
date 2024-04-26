@@ -167,7 +167,7 @@ footer {
       box-shadow: none;
     }
     header nav a:hover {
-      color: rgb(0, 0, 0);
+      color: rgb(255, 255, 255);
       transform: scale(1.5);
       transition: 1s;
     }

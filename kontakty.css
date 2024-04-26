@@ -45,7 +45,7 @@ header {
     justify-content: center;
     display: flex;
     height: 700px;
-    opacity: 65%;
+    opacity: 50%;
     size: 100px;
 
 }
@@ -71,7 +71,7 @@ footer {
 .nav ul{
     text-align: center;
     justify-content: center;
-    flex-direction: row
+    flex-direction: column;
 }
 
   header {
@@ -208,9 +208,6 @@ footer {
     
 }
 
-img{
-  width: 100%
-}
 
 .Card-food-name{
     min-height: 18px;
@@ -274,6 +271,7 @@ svg{
   text-align: center;
   margin: -480px;
   margin-right: -640px;
+  color: #ffffff;
 }
 
 .gordon{

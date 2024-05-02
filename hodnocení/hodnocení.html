@@ -4,7 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Hlavní stránka</title>
-<link rel="stylesheet" href="/home.css">
+<link rel="stylesheet" href="/hodnocení/hodnocení.css">
+<script src="/index.js"></script>
 </head>
 <body>
     <header>
@@ -20,30 +21,31 @@
             </div>
         </div>     
         <nav>
-            <a href="#">Home page</a>
-            <a href="/kontakty.html">Kontakty</a>
-            <a href="/nabídka.html">Nabídka</a>
-        </nav>
+          <a href="/home/home.html">Home page</a>
+          <a href="/kontakty/kontakty.html">Kontakty</a>
+          <a href="/nabídka/nabídka.html">Nabídka</a>
+          <a href="/hodnocení/hodnocení.html">hodnocení</a>
     </header>
 <body>
-    <main>
-        <div class="kuchar">
-            <img src="/foto/kuchaříček.svg" alt="">
+    <div class="hodnocujici"></div>
+        <div class="rating">
+          <span class="star" data-value="1">&#9733;</span>
+          <span class="star" data-value="2">&#9733;</span>
+          <span class="star" data-value="3">&#9733;</span>
+          <span class="star" data-value="4">&#9733;</span>
+          <span class="star" data-value="5">&#9733;</span>
         </div>
-        <div class="onas">
-            <h1>About Us</h1>
-            <p>________________________</p>
-            <p>CEO : Michael Piksa</p>
-            <p>Tel : +420 606 704 051</p>
-            <p>Založena : roku 1987</p>
-            <p>Adressa : Macháčková 1924 / 666 69 Saturn</p>
-            <p>Hodnocena : </p>
-            <p>________________________</p>
+        <p id="ratingValue"></p>
+
+      <div class="random">
+        <div class="rating-container">
+          <textarea id="userRating" placeholder="Napište své hodnocení zde..."></textarea>
+          <button id="submitRating">Odeslat hodnocení</button>
+          <p id="thankYouMessage"></p>
+        </div>
+      </div>
+    <div>
         
-
-        </div>
-
-    </main>
 </body>
 
 <footer>

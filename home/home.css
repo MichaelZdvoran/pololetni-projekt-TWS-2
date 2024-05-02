@@ -10,6 +10,7 @@ header {
     box-shadow: rgba(255, 255, 255, 0.288) 0px 4px 12px;
     position: relative;
     background-color: none;
+    color: #252525;
   }
   header .wrapper {
     max-width: 1300px;
@@ -62,6 +63,7 @@ footer {
     width: 100%;
     text-align: center;
     padding: 20px ;
+    color: #252525;
 }
 
 .nadpis{

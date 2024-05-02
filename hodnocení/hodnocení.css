@@ -323,20 +323,21 @@ svg{
 }
 
 .rating {
-  unicode-bidi: bidi-override;
-  direction: rtl;
+  font-size: 60px;
   display: flex;
   justify-content: center;
 }
+
 .star {
-  display: inline-block;
-  font-size: 60px;
+  color: #ddd;
   cursor: pointer;
 }
+
 .star:hover,
-.star:hover ~ .star {
-  color: rgb(235, 189, 36);
+.star.active {
+  color: rgb(255, 196, 0);
 }
+
 
 .rating-container {
   border: 2px solid black;

@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
     submitButton.addEventListener('click', function() {
       const userRating = document.getElementById('userRating').value;
       if (userRating.trim() !== '') {
-        thankYouMessage.textContent = 'Děkujeme za hodnocení!';
+        thankYouMessage.textContent = 'Děkujeme za hodnocení! Mějte krásný den <3';
       } else {
         thankYouMessage.textContent = 'Prosím, napište své hodnocení.';
       }
